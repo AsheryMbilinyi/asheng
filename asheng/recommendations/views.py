@@ -150,10 +150,10 @@ def index(request):
             context = {'form':form,
                        'img_obj': img_obj,
                        'user_input_movie':user_input_movie,
-                       'final_recommendations': recomended_movies_contents,
+                       #'final_recommendations': recomended_movies_contents,
                        #'final_recommendations': recomended_movies_based_on_emotion,
 
-                       #'final_recommendations':final_recommendations
+                       'final_recommendations':final_recommendations
                        }
 
             return render(request, 'recommendations/index.html',context)
