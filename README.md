@@ -1,5 +1,5 @@
 
-# asheng : an effective movie recommendation system based viewers' emotions and and content-based filtering
+# asheng : an effective movie recommendation system based on viewers' emotion reactions and and movie contents.
 
 This repository contains the code for asheng, a prototype system we developed for Start Hack Hackthon. asheng employes an optimal algorithm that combines users tracked emotion reaction while watching the movie and and movies' contents, to recommend most personalized movies for viewers to watch:
 
